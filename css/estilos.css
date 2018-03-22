@@ -4,6 +4,7 @@ body {
 }
 
 #destacados {
+	text-shadow: 0 0 3px white;
 	background-color: #669999;
 }
 
@@ -35,6 +36,7 @@ footer {
 	flex-direction: column;
 }
 #destacados .contenedor > div {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 0, 0.3);
 	text-align: center;
 	padding: 10px;
 	margin: 10px;
@@ -42,13 +44,19 @@ footer {
 	width: 50%;
 }
 #ofertas .contenedor > div {
+	box-shadow: 4px 8px;
 	text-align: center;
 	padding: 10px;
 	margin: 10px;
 	background-color: white;
 	width: 33.3%
 }
+
+#ofertas > h1 {
+	text-shadow: 1px 1px 2px white, 0 0 30px #D46A6A;
+}
 #disponible .contenedor > div {
+	box-shadow: 4px 8px #D46A6A;
 	text-align: center;
 	padding: 10px;
 	margin: 10px;
